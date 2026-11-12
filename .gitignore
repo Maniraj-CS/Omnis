@@ -1,0 +1,40 @@
+
+# Environment variables (all services)
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node.js dependencies
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+
+# Logs
+**/*.log
+**/logs/
+
+# Testing
+**/coverage/
+
+# TypeScript
+**/*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+**/*.tmp
+**/*.bak
+
+# Python (if any service uses Python)
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
