@@ -1,6 +1,5 @@
 import dotenv from "dotenv/config"
 
-
 import app from "./app.js"
 import "./config/redis.js"
 import db  from "./config/db.js"
